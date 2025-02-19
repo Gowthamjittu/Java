@@ -1,15 +1,6 @@
-public class Main {
+public class Main{
     public static void main (String []args){
-        int n = 4;
-        for (int i = 0; i<=n ; i++){
-            for (int j = 0 ; j<=i ; j++){
+      int [] a = {1, 5, 6, 9, 3, 7};
+    }
 
-                System.out.print("*  " );
-            
-                
-            }
-            System.out.println();
-        }
-    } 
-    
 }
