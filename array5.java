@@ -1,12 +1,18 @@
+import java.util.*;
 public class array5 {
     public static void main (String [] args){
-        int[] a = {5, 3, 2, 5, 1, 4, 3};
-        for (int i = 0 ; i < a.length ; i++){
-            for (int j = i+1 ; j <a.length ; j++){
-                if ( i == j);
-                System.out.print("same number");
+        int a[] ={8,7,5,4,5,7,8,7,8,9};
+        int temp[] = new int [a.length];
+        Arrays.sort(a);
+        int j = 0;
+        for ( int i = 0 ; i < a.length-1 ; i++){
+            if(a[i] != a[i+1]){
+                temp [j++] = a[i];
             }
         }
+                temp [j] = a[a.length-1];
+                for(int i = 0 ; i <= j ; i++){
+                    System.out.print(temp[i] + ",");           
+          }
     }
-    
 }
