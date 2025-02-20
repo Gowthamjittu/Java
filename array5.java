@@ -12,7 +12,7 @@ public class array5 {
         }
                 temp [j] = a[a.length-1];
                 for(int i = 0 ; i <= j ; i++){
-                    System.out.print(temp[i] + ",");           
+                    System.out.print(temp[i] + ",");      
           }
     }
 }
