@@ -1,15 +1,23 @@
 public class Main{
-    public static void main (String []args){
-      int [] a = {1, 5, 6, 9, 3, 7};
-      int temp = a[a.length-1];
-      for (int i = a.length-1 ; i >= 0 ; i--){
-        a[i+1] = a[i];
+    public static void main(String[] args){
+       twoDim();
+       
+           }
+        static void twoDim(){
+        int b = 5 ;
+        int[] [] a = new int [5] [5];
+        int k = 1;
+        for (int i = 0 ; i < b ; i++){
+            for (int j = 0 ; j < b ; j++){
+                a[i][j] = k++;
 
-      }
-      for (int i = 0 ; i < a.length ; i++){
-        System.out.print(a[i] + ",");
-      }
-
+            }
+        }
+        for (int i = 0 ; i < b ; i++ , System.out.print("")){
+            for (int j = 0 ; j < b ; j++ , System.out.println(" ")){
+                System.out.print(a[i][j]);
+            }
+        }
     }
 
 }

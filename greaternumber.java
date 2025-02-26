@@ -1,4 +1,4 @@
-public class graeternumber {
+public class greaternumber {
     public static void main (String [] args){
         int [] a = {10, 20, 5, 6, 12, 8};
         int b =a.length;
