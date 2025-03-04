@@ -14,7 +14,7 @@ public class Main{
             }
         }
         for (int i = 0 ; i < b ; i++ , System.out.print("")){
-            for (int j = 0 ; j < b ; j++ , System.out.println(" ")){
+            for (int j = 0 ; j < b ; j++ , System.out.print(" ")){
                 System.out.print(a[i][j]);
             }
         }
