@@ -9,9 +9,7 @@ public class bubblesort {
             temp=Arr[j];
             Arr[j]=Arr[j+1];
             Arr[j+1]=temp;
-
         }
-
     }
     public static void main(String[] args){
         int b[]={10,7,8,6,1,9};
