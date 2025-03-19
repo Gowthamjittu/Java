@@ -22,8 +22,8 @@ public class firstmissingpositive {
         int[] nums1 = {1, 2, 0};
         int[] nums2 = {3, 4, -1, 1};
         int[] nums3 = {7, 8, 9, 11, 12};
-        System.out.println(firstMissingPositive(nums1)); // Output: 3
-        System.out.println(firstMissingPositive(nums2)); // Output: 2
-        System.out.println(firstMissingPositive(nums3)); // Output: 1
+        System.out.println(firstMissingPositive(nums1)); 
+        System.out.println(firstMissingPositive(nums2));
+        System.out.println(firstMissingPositive(nums3));
     }
 }
